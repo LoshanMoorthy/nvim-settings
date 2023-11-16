@@ -9,4 +9,8 @@ local options = {
   indent = { enable = true },
 }
 
+require'nvim-treesitter.install'.compilers = { 'zig' }
+
 return options
+
+
